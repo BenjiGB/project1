@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Random Dog Generator </h1>
+    <h4>Click "Random" button to generate a random dog piccture!</h4>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="/script.js" defer></script>
+    
+
+
+
+
+
+
+
+
+    <title>Random Dog</title> 
+    
+</head>
+<body>
+    
+    <div class="background_image"></div class>
+    <div id="container">
+        <img id="image"/>
+        <button id="button" onclick="get_random_dog_image()"> Random </button>
+
+    </div>
+</body>
+<style>
+    body{
+        background-color: rgb(234, 175, 26);
+        display:flex;
+        justify-content: center;
+        
+    }
+
+    #container{
+        width: 50%;
+        height: 500px;
+        border: 5px solid rgb(254, 254, 254);
+        box-sizing: border-box
+    }
+
+    #button{
+        width: 200px;
+        height: 50px;
+        float: center;
+        margin: left 240px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: bisque;
+        color: #000;
+    }
+   
+ 
+
+</style>
+</html>
