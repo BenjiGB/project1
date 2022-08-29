@@ -8,6 +8,7 @@ This App Generates a randomized picture of a dog when the "Random" button is sel
 (https://user-images.githubusercontent.com/111290716/187103272-49c749b1-f130-4d8c-bee7-03803dbee0c4.png)
 
 <h1> Getting started : </h1>
+https://benjigb.github.io/project1/
 All you need is one click! To start application you need to click the "Random" button to generate a random picture of a dog.
 
 <h1> Future Enhancements: </h1>
